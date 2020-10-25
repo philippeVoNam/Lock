@@ -51,6 +51,6 @@ class FirebaseCom:
         read data to firebase
         """
         status = self.db.child("status").get()
-        data = status.val()
+        data = status.val()["status"]
 
         return data
