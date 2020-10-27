@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from firebase_com import FirebaseCom
 
 com = FirebaseCom()
